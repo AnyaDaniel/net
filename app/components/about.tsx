@@ -43,16 +43,16 @@ const About = () => {
           {/* Text Column */}
           <motion.div className="w-full" variants={fadeInUp(0.2)}>
             <div className="mb-5">
-              <h3 className="text-xl font-bold mb-3">Based in New Jersey</h3>
+              <h3 className="text-xl font-bold mb-3">Crafting Online Success for Forward-Thinking Businesses. </h3>
               <p className="max-w-[700px] text-gray-500">
-                Based in New Jersey, The Gʊd AI'diə Company is an innovation and growth strategy enabler dedicated to helping leading establishments thrive in the digital world. We specialize in innovative strategies, digital positioning and transformation, and holistic growth design.
+                Are you navigating the complexities of the digital landscape, searching for tangible growth? Net-trix Digital Agency is your strategic partner. We're a dynamic digital production studio dedicated to empowering startups, enterprise leaders, media & publishers, and social good organizations to not just compete, but to thrive online. We transform your vision into impactful digital realities, ensuring your brand stands out, connects with your audience, and achieves measurable success. 
               </p>
             </div>
 
             <div className="mb-5">
               <h3 className="text-xl font-bold mb-3">Our goal is clear</h3>
               <p className="max-w-[700px] text-gray-500">
-                At The Gʊd AI'diə Company, we simplify complexity and spark bold growth through strategic, innovative solutions.
+                We offer a comprehensive suite of services designed to address every facet of your online presence. Each solution is meticulously crafted to deliver exceptional results and propel your business forward.
               </p>
             </div>
 
@@ -70,12 +70,14 @@ const About = () => {
             <div className="flex mt-8">
               <div className="pr-6">
                 <h1 className="text-5xl font-bold mb-4">
-                  <CountUp end={8} duration={4} />+
+                  <CountUp end={25} duration={4} />+
                 </h1>
                 <p>Global Team members</p>
               </div>
               <div className="border-l px-8">
-                <h1 className="text-5xl font-bold mb-4">10k+</h1>
+                <h1 className="text-5xl font-bold mb-4">
+                   <CountUp end={300} duration={6} />+
+                </h1>
                 <p>Clients Served</p>
               </div>
             </div>
